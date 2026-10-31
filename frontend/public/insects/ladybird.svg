@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="ladyRed" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#991b1b" />
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="30" fill="#fef2f2" />
+  <!-- Legs -->
+  <path d="M55 85 L35 75 M50 110 L25 110 M55 135 L35 150 M145 85 L165 75 M150 110 L175 110 M145 135 L165 150" stroke="#18181b" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- Head & Pronotum -->
+  <circle cx="100" cy="58" r="22" fill="#18181b"/>
+  <!-- White facial markings -->
+  <circle cx="88" cy="52" r="5" fill="#f4f4f5"/>
+  <circle cx="112" cy="52" r="5" fill="#f4f4f5"/>
+  <!-- Antennae -->
+  <path d="M92 40 Q80 25 70 28 M108 40 Q120 25 130 28" stroke="#18181b" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <!-- Elytra / Wings (Red dome) -->
+  <ellipse cx="100" cy="115" rx="52" ry="52" fill="url(#ladyRed)" stroke="#7f1d1d" stroke-width="3"/>
+  <!-- Center division line -->
+  <line x1="100" y1="63" x2="100" y2="167" stroke="#18181b" stroke-width="3"/>
+  <!-- Black Spots (7-spot ladybird) -->
+  <circle cx="100" cy="78" r="8" fill="#18181b"/>
+  <circle cx="75" cy="100" r="9" fill="#18181b"/>
+  <circle cx="125" cy="100" r="9" fill="#18181b"/>
+  <circle cx="68" cy="130" r="8" fill="#18181b"/>
+  <circle cx="132" cy="130" r="8" fill="#18181b"/>
+  <circle cx="88" cy="150" r="7" fill="#18181b"/>
+  <circle cx="112" cy="150" r="7" fill="#18181b"/>
+  <!-- Label badge -->
+  <rect x="25" y="165" width="150" height="24" rx="12" fill="#15803d"/>
+  <text x="100" y="181" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">Helpful Predator 🐞</text>
+</svg>

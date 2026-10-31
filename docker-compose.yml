@@ -1,0 +1,68 @@
+version: '3.8'
+
+services:
+  # 1. PostGIS Database Container
+  db:
+    image: postgis/postgis:15-3.3
+    container_name: agrosmart_postgis
+    environment:
+      POSTGRES_USER: agrosmart
+      POSTGRES_PASSWORD: agrosmartpassword123
+      POSTGRES_DB: agrosmart
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./backend/schema.sql:/docker-entrypoint-initdb.d/init.sql
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U agrosmart -d agrosmart"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # 2. Redis Cache & Celery Broker
+  redis:
+    image: redis:7-alpine
+    container_name: agrosmart_redis
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+
+  # 3. FastAPI Backend
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: agrosmart_backend
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://agrosmart:agrosmartpassword123@db:5432/agrosmart
+      - SECRET_KEY=agrosmart-hackathon-secret-key-2026
+      - REDIS_URL=redis://redis:6379/0
+      - STORAGE_DIR=/app/uploads
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    volumes:
+      - uploads_data:/app/uploads
+    restart: unless-stopped
+
+  # 4. Vite React Frontend (PWA)
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: agrosmart_frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  pgdata:
+  uploads_data:

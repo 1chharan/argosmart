@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" rx="30" fill="#f0fdf4" />
+  <!-- Long Rice Leaf blade -->
+  <path d="M40 180 Q80 120 100 20 Q120 120 160 180 Z" fill="#86efac" stroke="#16a34a" stroke-width="2.5"/>
+  <line x1="100" y1="20" x2="100" y2="180" stroke="#4ade80" stroke-width="2"/>
+  <!-- Spindle-shaped Blast Lesions (grey center with brown margins) -->
+  <path d="M100 65 C85 75 85 85 100 95 C115 85 115 75 100 65 Z" fill="#e2e8f0" stroke="#78350f" stroke-width="3"/>
+  <path d="M100 115 C88 122 88 132 100 140 C112 132 112 122 100 115 Z" fill="#e2e8f0" stroke="#78350f" stroke-width="3"/>
+  <!-- Small yellow halo -->
+  <path d="M100 60 C80 73 80 87 100 100 C120 87 120 73 100 60 Z" stroke="#eab308" stroke-width="1.5" fill="none" opacity="0.8"/>
+  <rect x="25" y="165" width="150" height="24" rx="12" fill="#b91c1c"/>
+  <text x="100" y="181" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">Rice Leaf Blast 🌾</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" rx="30" fill="#fefce8" />
+  <!-- Distorted curling leaf -->
+  <path d="M50 160 C30 110 50 60 100 40 C140 30 165 70 145 110 C130 140 100 155 50 160 Z" fill="#bef264" stroke="#65a30d" stroke-width="2.5"/>
+  <!-- Puckered vein wrinkles -->
+  <path d="M70 120 Q95 90 120 75 M75 140 Q105 115 135 100" stroke="#4d7c0f" stroke-width="2.5" fill="none"/>
+  <!-- Stunted curly cup -->
+  <ellipse cx="110" cy="85" rx="20" ry="14" fill="#a3e635" stroke="#4d7c0f" stroke-width="1.5"/>
+  <rect x="25" y="165" width="150" height="24" rx="12" fill="#c2410c"/>
+  <text x="100" y="181" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">Chilli Leaf Curl 🌶️</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="hoverWing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0.3" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="30" fill="#f0fdfa" />
+  <!-- Single pair of clear wings (Fly characteristic) -->
+  <ellipse cx="65" cy="78" rx="46" ry="18" transform="rotate(-30 65 78)" fill="url(#hoverWing)" stroke="#0369a1" stroke-width="2"/>
+  <ellipse cx="135" cy="78" rx="46" ry="18" transform="rotate(30 135 78)" fill="url(#hoverWing)" stroke="#0369a1" stroke-width="2"/>
+  <!-- Abdomen with yellow/black mimic bands -->
+  <ellipse cx="100" cy="125" rx="22" ry="36" fill="#eab308" stroke="#713f12" stroke-width="2.5"/>
+  <path d="M80 110 Q100 118 120 110 M80 125 Q100 133 120 125 M82 140 Q100 148 118 140" stroke="#18181b" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- Thorax -->
+  <circle cx="100" cy="90" r="18" fill="#451a03" stroke="#292524" stroke-width="2"/>
+  <!-- Enormous Red Fly Eyes -->
+  <ellipse cx="88" cy="62" rx="14" ry="16" fill="#b91c1c" stroke="#7f1d1d" stroke-width="1.5"/>
+  <ellipse cx="112" cy="62" rx="14" ry="16" fill="#b91c1c" stroke="#7f1d1d" stroke-width="1.5"/>
+  <!-- Short Fly Antennae -->
+  <path d="M98 52 L95 44 M102 52 L105 44" stroke="#18181b" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Label badge -->
+  <rect x="25" y="165" width="150" height="24" rx="12" fill="#15803d"/>
+  <text x="100" y="181" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">Helpful Pollinator 🌸</text>
+</svg>

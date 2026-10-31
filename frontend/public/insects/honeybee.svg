@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="honeyGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </radialGradient>
+    <linearGradient id="wingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.4" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="30" fill="#fefce8" />
+  <!-- Honeycomb pattern -->
+  <path d="M30 40 L45 32 L60 40 L60 55 L45 63 L30 55 Z M140 140 L155 132 L170 140 L170 155 L155 163 L140 155 Z" stroke="#fde047" stroke-width="2" fill="none" opacity="0.6"/>
+  <!-- Wings -->
+  <ellipse cx="80" cy="80" rx="42" ry="22" transform="rotate(-35 80 80)" fill="url(#wingGrad)" stroke="#0284c7" stroke-width="2"/>
+  <ellipse cx="120" cy="80" rx="42" ry="22" transform="rotate(35 120 80)" fill="url(#wingGrad)" stroke="#0284c7" stroke-width="2"/>
+  <ellipse cx="75" cy="95" rx="30" ry="16" transform="rotate(-20 75 95)" fill="url(#wingGrad)" stroke="#0284c7" stroke-width="1.5" opacity="0.8"/>
+  <ellipse cx="125" cy="95" rx="30" ry="16" transform="rotate(20 125 95)" fill="url(#wingGrad)" stroke="#0284c7" stroke-width="1.5" opacity="0.8"/>
+  <!-- Legs -->
+  <path d="M70 120 L50 145 M65 130 L45 160 M130 120 L150 145 M135 130 L155 160" stroke="#451a03" stroke-width="4" stroke-linecap="round"/>
+  <!-- Abdomen / Body -->
+  <ellipse cx="100" cy="130" rx="28" ry="40" fill="url(#honeyGlow)" stroke="#78350f" stroke-width="3"/>
+  <!-- Black stripes -->
+  <path d="M76 112 Q100 120 124 112" stroke="#1c1917" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M74 128 Q100 138 126 128" stroke="#1c1917" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M78 144 Q100 154 122 144" stroke="#1c1917" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <!-- Stinger -->
+  <path d="M100 170 L97 178 L103 178 Z" fill="#1c1917"/>
+  <!-- Thorax -->
+  <circle cx="100" cy="95" r="24" fill="#78350f" stroke="#451a03" stroke-width="3"/>
+  <!-- Head -->
+  <circle cx="100" cy="65" r="18" fill="#451a03"/>
+  <!-- Eyes -->
+  <ellipse cx="90" cy="62" rx="4" ry="7" fill="#1c1917"/>
+  <ellipse cx="110" cy="62" rx="4" ry="7" fill="#1c1917"/>
+  <!-- Antennae -->
+  <path d="M93 50 Q80 32 65 36 M107 50 Q120 32 135 36" stroke="#451a03" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <!-- Label -->
+  <rect x="25" y="165" width="150" height="24" rx="12" fill="#15803d"/>
+  <text x="100" y="181" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">Helpful Pollinator 🐝</text>
+</svg>

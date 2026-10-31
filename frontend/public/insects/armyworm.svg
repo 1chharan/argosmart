@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="wormBody" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#713f12" />
+      <stop offset="50%" stop-color="#a16207" />
+      <stop offset="100%" stop-color="#451a03" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="30" fill="#fff7ed" />
+  <!-- Caterpillar Segments -->
+  <g stroke="#451a03" stroke-width="2">
+    <!-- Legs -->
+    <path d="M45 125 L40 140 M65 128 L62 142 M85 130 L83 144 M105 130 L104 144 M125 128 L126 142 M145 125 L148 140" stroke="#78350f" stroke-width="3" stroke-linecap="round"/>
+    <!-- Segments curved -->
+    <ellipse cx="40" cy="115" rx="14" ry="16" fill="url(#wormBody)" />
+    <ellipse cx="60" cy="113" rx="14" ry="17" fill="url(#wormBody)" />
+    <ellipse cx="80" cy="110" rx="14" ry="18" fill="url(#wormBody)" />
+    <ellipse cx="100" cy="108" rx="15" ry="19" fill="url(#wormBody)" />
+    <ellipse cx="120" cy="108" rx="14" ry="18" fill="url(#wormBody)" />
+    <ellipse cx="140" cy="112" rx="13" ry="17" fill="url(#wormBody)" />
+    <!-- Head Capsule with distinctive inverted Y suture -->
+    <ellipse cx="158" cy="115" rx="14" ry="15" fill="#451a03" />
+    <path d="M158 106 L158 114 M158 114 L152 122 M158 114 L164 122" stroke="#fef08a" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <!-- Lateral stripes -->
+    <path d="M30 115 Q95 102 150 112" stroke="#fef08a" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <path d="M35 110 Q95 98 145 106" stroke="#1c1917" stroke-width="2" stroke-linecap="round" fill="none"/>
+  </g>
+  <!-- Label badge -->
+  <rect x="25" y="165" width="150" height="24" rx="12" fill="#dc2626"/>
+  <text x="100" y="181" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">Harmful Pest 🐛</text>
+</svg>

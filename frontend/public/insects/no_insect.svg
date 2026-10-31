@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_grass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14532d" />
+      <stop offset="100%" stop-color="#166534" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg_grass)" rx="16" />
+  <!-- Crop leaf blade only -->
+  <path d="M50 280 Q 150 120 350 70 Q 260 210 120 280 Z" fill="#22c55e" opacity="0.8" />
+  <path d="M50 280 Q 200 170 350 70" stroke="#86efac" stroke-width="4" fill="none" />
+  <!-- Question mark / magnifying glass with no insect -->
+  <circle cx="200" cy="140" r="50" fill="#0f172a" fill-opacity="0.6" stroke="#fbbf24" stroke-width="4" stroke-dasharray="6,6" />
+  <text x="200" y="152" font-family="system-ui, sans-serif" font-size="34" fill="#fbbf24" text-anchor="middle" font-weight="900">?</text>
+  <rect x="70" y="220" width="260" height="42" rx="10" fill="#022c22" fill-opacity="0.85" stroke="#10b981" stroke-width="2"/>
+  <text x="200" y="247" font-family="system-ui, sans-serif" font-size="14" fill="#ffffff" font-weight="800" text-anchor="middle">Only Leaf Visible • No Insect Found</text>
+</svg>

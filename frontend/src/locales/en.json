@@ -1,0 +1,130 @@
+{
+  "appName": "AgroSmart AI",
+  "appTagline": "Pollinator & Beneficial Insect Network",
+  "home": "Home",
+  "selectLanguage": "Select Language / భాషను ఎంచుకోండి / भाषा चुनें",
+  "chooseLanguageTitle": "Which language do you prefer to speak?",
+  "listen": "Listen",
+  "stopListening": "Stop",
+  "tapToSpeak": "Tap to speak question",
+  "voiceChatbotTitle": "AgroSmart Voice AI",
+  "voiceChatbotSub": "Speak directly with your farming assistant",
+  "savedOnPhone": "Saved on phone (Offline)",
+  "uploaded": "Uploaded (Online)",
+  "syncNow": "Sync Now",
+  "itemsPendingSync": "sightings waiting to sync",
+  "allSynced": "All records synced with server",
+  "mixedBugs": {
+    "title": "Mixed Bugs Detected",
+    "badge": "Multi-Insect Coexistence",
+    "subtitle": "Both helpful and harmful insects were detected together on this plant",
+    "ecoWarning": "⚠️ DANGER TO ALLIES: Pests are present, but beneficial predators/pollinators are on the same crop! Avoid toxic chemical sprays to prevent killing helpful insects.",
+    "samplePill1": "🐝 + 🪰 Mixed: Bee & Whitefly",
+    "samplePill2": "🐞 + 🐛 Mixed: Ladybird & Aphids"
+  },
+  "categories": {
+    "helpful": "Helpful insect",
+    "harmful": "Harmful insect",
+    "uncertain": "Not sure / Mixed / In review",
+    "all": "All insects"
+  },
+  "roles": {
+    "pollinator": "Pollinator",
+    "predator": "Natural Predator",
+    "parasitoid": "Helpful Wasp",
+    "pest": "Crop Pest"
+  },
+  "nav": {
+    "home": "Home",
+    "upload": "Upload",
+    "sightings": "My Field",
+    "map": "Map & Seasons",
+    "doctor": "Plant Doctor",
+    "risk": "Risk Alerts",
+    "assistant": "Ask AI",
+    "expert": "Expert Review"
+  },
+  "homeTiles": {
+    "uploadTitle": "Photograph Insect",
+    "uploadSub": "Instant AI guess in 1 tap",
+    "doctorTitle": "AI Plant Doctor",
+    "doctorSub": "Heal crop diseases naturally",
+    "mapTitle": "Seasonal Map",
+    "mapSub": "Where & when bees appear",
+    "riskTitle": "Pest & Spray Risk",
+    "riskSub": "Safe hours to protect bees",
+    "assistantTitle": "Voice Farm Assistant",
+    "assistantSub": "Ask in your mother tongue",
+    "expertTitle": "Expert Verification",
+    "expertSub": "KVK Scientist queue & audit"
+  },
+  "uploadScreen": {
+    "title": "Photograph Insect",
+    "subtitle": "Point camera clearly at the insect",
+    "takePhoto": "Take Photo / Camera",
+    "chooseGallery": "Choose from Gallery",
+    "cropLabel": "Crop Name (Optional)",
+    "locationLabel": "Field Location",
+    "locating": "Finding your GPS location...",
+    "dragPinTip": "GPS found! Drag the pin on map if needed.",
+    "submitBtn": "Check Insect with AI",
+    "analyzing": "Analyzing insect photo...",
+    "optionalNote": "Voice or text note (Optional)"
+  },
+  "resultScreen": {
+    "title": "Insect Identification Result",
+    "aiGuess": "AI Top Guess",
+    "confidence": "Confidence",
+    "otherPossibilities": "Other Possibilities",
+    "actionTip": "Farmer Advice",
+    "saveConfirm": "Saved to your field notebook",
+    "backHome": "Back to Home",
+    "expertNotice": "Sent to Agricultural Officer for confirmation"
+  },
+  "mapScreen": {
+    "title": "Seasonal Patterns & Map",
+    "subtitle": "See where helpful bees and pests appear across seasons",
+    "filterByCrop": "Filter by Crop",
+    "filterByCategory": "Insect Type",
+    "filterByMonth": "Month",
+    "monthChartTitle": "Month-by-Month Activity in Your Region",
+    "exportGeoJSON": "Export GeoJSON",
+    "exportCSV": "Export CSV"
+  },
+  "doctorScreen": {
+    "title": "AI Plant Doctor",
+    "subtitle": "Upload a sick leaf or crop photo for natural remedy",
+    "cropProblemPhoto": "Upload Leaf Photo",
+    "diagnoseBtn": "Diagnose Crop Problem",
+    "diagnosing": "Inspecting leaf for diseases...",
+    "diagnosisResult": "Diagnosis Result",
+    "organicRemedy": "Low-Cost Natural Treatment",
+    "pollinatorWarningTitle": "BEE & POLLINATOR SAFETY WARNING",
+    "pollinatorWarningSub": "Always protect pollinators when treating crops"
+  },
+  "riskScreen": {
+    "title": "Field Pest & Spray Risk",
+    "subtitle": "Real-time risk score based on nearby farmer reports & weather",
+    "riskScore": "Field Risk Level",
+    "safeSprayWindow": "Safe Spraying Recommendation",
+    "beneficialCount": "Helpful Insects Nearby",
+    "pestCount": "Harmful Pests Nearby",
+    "broadcastAlert": "Simulate SMS / WhatsApp Alert to Village",
+    "broadcastSent": "Alert successfully dispatched to village farmer group!"
+  },
+  "assistantScreen": {
+    "title": "Multilingual Farm Assistant",
+    "subtitle": "Speak or type any question about crops, bees, or spraying",
+    "placeholder": "Ask: Can I spray today? or What is this insect?",
+    "send": "Ask",
+    "speaking": "Speaking reply..."
+  },
+  "expertScreen": {
+    "title": "Expert Verification Dashboard",
+    "subtitle": "Krishi Vigyan Kendra (KVK) Scientist & Officer Review Queue",
+    "pendingCount": "Sightings Pending Review",
+    "verifyBtn": "Confirm Species",
+    "reclassifyBtn": "Change / Correct Species",
+    "confirmedSuccess": "Sighting verified! Feedback logged for ML model retraining."
+  }
+}
